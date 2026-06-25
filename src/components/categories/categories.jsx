@@ -1,25 +1,26 @@
-import {
-  FaMobileAlt,
-  FaTshirt,
-  FaLaptop,
-  FaHome,
- 
-  FaMotorcycle,
-} from "react-icons/fa";
+import { FaTshirt, FaMobileAlt, FaHome, FaMotorcycle } from "react-icons/fa";
+import { MdTv, MdLaptopMac } from "react-icons/md";
+import { GiLipstick, GiMeal, GiCricketBat } from "react-icons/gi";
+import { FaBookOpen, FaCouch, FaCarSide,  } from "react-icons/fa";
+
 
 import { MdKitchen } from "react-icons/md";
 import { GiShoppingBag } from "react-icons/gi";
 
 function Categories() {
   const categories = [
-    
+     { name: "Bags", icon: < GiShoppingBag /> },
     { name: "Mobiles", icon: <FaMobileAlt /> },
     { name: "Fashion", icon: <FaTshirt /> },
-    { name: "Electronics", icon: <FaLaptop /> },
-    
+    { name: "Electronics", icon: < MdLaptopMac /> },
+     { name: "Foods", icon: < GiMeal /> },
+     { name: "Womenish", icon: < GiLipstick /> },
+      { name: "Sports", icon: < GiCricketBat /> },
+     { name: "Books", icon: <FaBookOpen /> },
+     { name: "Electronics", icon: < MdLaptopMac /> },
     { name: "Home", icon: <FaHome /> },
-    { name: "Appliances", icon: <MdKitchen /> },
-   
+    { name: "Applinces", icon: <MdKitchen /> },
+    { name: "Cars", icon: <FaCarSide /> },
     { name: "Beauty", icon: <GiShoppingBag /> },
     { name: "Bikes", icon: <FaMotorcycle /> },
   ];
