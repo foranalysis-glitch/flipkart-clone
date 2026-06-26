@@ -6,7 +6,7 @@ function ProductCard({ image, title, price }) {
         <img
           src={image}
           alt={title}
-          className="h-full object-contain"
+          className="h-full w-full object-contain bg-gray-300  hover:scale-110 hover:bg-yellow-400 transition-all duration-200"
         />
       </div>
 

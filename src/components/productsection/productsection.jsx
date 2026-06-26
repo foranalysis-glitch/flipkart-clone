@@ -1,6 +1,6 @@
 import ProductCard from "../productcard/productcard";
 
-function ProductSection() {
+function ProductSection() {  
 
   const products = [
     {

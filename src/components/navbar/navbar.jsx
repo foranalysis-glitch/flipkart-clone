@@ -22,30 +22,33 @@ function Navbar() {
       {/* Desktop Navbar */}
       <div className="hidden md:flex max-w-7xl mx-auto px-4 h-16 items-center justify-between">
 
-        <h1 className=" mr-4 bg-yellow-300 px-4 py-2 rounded-lg  text-blue-500  text-2xl  font-serif ">
+        <h1 className=" mr-4 bg-yellow-300 px-4 py-2 rounded-lg  text-blue-500  text-2xl hover:-translate-y-2 transition font-serif ">
           Flipkart
         </h1>
 
-        <div className="flex items-center w-[65%]">
+        <div className="flex items-center w-[65%]  bg-gray-50 rounded-xl px-2">
           <input
             type="text"
             placeholder="Search..."
-            className="w-full px-5 py-3 rounded-xl border-2 border-black outline-none"
+            className="w-full px-5 py-3 rounded-xl border-2 border-black outline-none focus:border-blue-500"
           />
           <FaSearch className="ml-2 text-xl" />
         </div>
 
         <div className="flex items-center gap-6">
 
-          <button className="bg-white px-5 py-2 font-semibold rounded-md">
+          <button className=" flex items-center gap-1 rounded-lg bg-white px-5 py-2 font-semibold  hover:bg-gray-100 transition-all duration-300">
             Login
+              <MdKeyboardArrowDown />
           </button>
 
-          <button className="px-4 py-2 font-bold">
+        
+
+          <button className="px-4 py-2 font-bold  hover:text-blue-600 transition-all duration-300">
             Become Seller
           </button>
 
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 cursor-pointer hover:text-blue-600 transition-all duration-300 rounded-lg">
             <FaShoppingCart />
             <span>Cart</span>
           </div>

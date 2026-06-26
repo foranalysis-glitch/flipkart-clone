@@ -21,8 +21,8 @@ useEffect(() => {
   return () => clearInterval(interval);
 }, []);
   return (
-    <div className="max-w-7xl mx-auto px-4 mt-4">
-      <div className="w-full h-[180px] md:h-[280px] lg:h-[350px] rounded-lg overflow-hidden">
+    <div className="max-w-7xl mx-auto px-4 mt-4 align items-center">
+      <div className="w-[100%] h-[180px] md:h-[280px] lg:h-[350px]  rounded-lg overflow-hidden hover:hover:scale-110 transition-all">
 
        <img
        src={images[current]}

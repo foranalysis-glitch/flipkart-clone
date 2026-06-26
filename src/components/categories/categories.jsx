@@ -26,7 +26,7 @@ function Categories() {
   ];
 
   return (
-    <div className="bg-white shadow-sm">
+    <div className="bg-white shadow-sm flex flex-col items-center cursor-pointer hover:scale-110 transition-all duration-300">
       <div className="max-w-7xl mx-auto px-4">
 
         <div className="flex items-center justify-between overflow-x-auto py-4 gap-6">
@@ -40,7 +40,7 @@ function Categories() {
                 {item.icon}
               </div>
 
-              <p className="text-sm font-medium mt-2">
+              <p className="text-sm font-medium mt-2  hover:text-blue-600 transition-all duration-300">
                 {item.name}
               </p>
             </div>
